@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./navmenu.module.css";
+import styles from "./navmenu.module.scss";
 import Link from "next/link";
 
 const links = [
-  {
-    title: "Products",
-    path: "/products",
-  },
+  // {
+  //   title: "Products",
+  //   path: "/products",
+  // },
   {
     title: "Login",
     path: "/login",

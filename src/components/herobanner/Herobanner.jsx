@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./herobanner.module.css";
+import styles from "./herobanner.module.scss";
 
 const Herobanner = () => {
   return (
