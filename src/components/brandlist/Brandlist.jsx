@@ -7,22 +7,22 @@ const brands = [
   {
     brandName: "Nike",
     path: "products/nike",
-    logo: "/nikelogo",
+    logo: "/brand-nike",
   },
   {
     brandName: "Adidas",
     path: "products/adidas",
-    logo: "/nikelogo",
+    logo: "/brand-adidas",
   },
   {
     brandName: "Mizuno",
     path: "products/mizuno",
-    logo: "/nikelogo",
+    logo: "/brand-nike",
   },
   {
     brandName: "Puma",
     path: "products/puma",
-    logo: "/nikelogo",
+    logo: "/brand-puma",
   },
 ];
 
