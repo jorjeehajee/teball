@@ -1,0 +1,23 @@
+.menu {
+    border-left: 1px solid var(--color-border);
+}
+.link{
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-default);
+    font-size: var(--typo-xs);
+    text-decoration: none;
+}
+.icon{
+    margin-bottom: 0.5rem;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.iconImg{
+    object-fit: contain;
+}

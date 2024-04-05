@@ -1,8 +1,40 @@
 .container{
-    width: 40%;
-}
-
-.search{
     width: 100%;
-    padding: 1rem;
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    background-color: var(--color-secondary);
+    min-width: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.iconImg{
+    object-fit: contain;
+    transform: scale(0.3);
+}
+.input{
+    border-radius: 0;
+    height: 80px;
+    padding: 0 20px;
+    border: none;
+    font-size: var(--typo-md);
+}
+.input:focus{
+    box-shadow: none;
+    border: none;
+}
+.input::-webkit-input-placeholder {
+    opacity: 0.4;
+}
+.input:-ms-input-placeholder {
+    opacity: 0.4;
+}
+.input::placeholder {
+    opacity: 0.4;
 }

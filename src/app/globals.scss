@@ -1,10 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
 
-
-@import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
-
 :root {
     --color-primary: #000;
     --color-secondary: #AEF00D;
@@ -110,17 +106,17 @@
 
 
 body{
-    font-family: "Noto Sans Thai", sans-serif;
-    font-optical-sizing: auto;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
 
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-synthesis: antialiased; 
-	font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: antialiased; 
+  // font-smoothing: antialiased;
 
-    color: var(--color-default);
-    font-size: var(--typo-default);
-	font-weight: var(--fw-normal);
+  color: var(--color-default);
+  font-size: var(--typo-default);
+  font-weight: var(--fw-normal);
 }
 
 .container{
