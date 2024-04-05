@@ -1,0 +1,17 @@
+.container {
+    width: 1280px;
+    max-width: 90%;
+    margin: 1rem auto;
+}
+
+.sectionTitle{
+    text-align: center;
+}
+
+.sectionItems {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
