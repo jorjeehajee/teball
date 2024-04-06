@@ -14,12 +14,34 @@
   /* min-height: 100px; */
 }
 
-.logoImage {
+.link{
+  display: block;
+  text-align: center;
+  color: var(--color-default);
+  font-size: var(--typo-xs);
+  text-decoration: none;
+}
+
+.cover{
+  padding-top: 100%;
+  margin-bottom: 0.75rem;
   position: relative;
-  width: 100px;
-  height: 100px;
+  background-color: #F7F7F7;
+}
+
+.logoImage {
+  width: 100%;
+  position: relative;
+  /* position: relative; */
+  /* width: 100px; */
+  /* height: 100px; */
   /* width: 75px;
   height: 75px; */
   /* border-radius: 50%; */
-  background-color: #F7F7F7;
+  /* background-color: #F7F7F7; */
+}
+
+.image{
+  object-fit: contain;
+  object-position: center;
 }

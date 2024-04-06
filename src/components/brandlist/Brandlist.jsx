@@ -24,6 +24,36 @@ const brands = [
     path: "products/puma",
     logo: "/brand-puma",
   },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
+  {
+    brandName: "Puma",
+    path: "products/puma",
+    logo: "/brand-puma",
+  },
 ];
 
 const Brandlist = () => {
@@ -32,13 +62,16 @@ const Brandlist = () => {
       <div className={styles.brandContainer}>
         {brands.map((item) => (
           <div className={styles.logoImage}>
-            <Link href={item.path} key={item.brandName}>
-              <Image
-                src={item.logo + ".png"}
-                layout="fill"
-                alt={item.brandName}
-                className={styles.image}
-              />
+            <Link className={styles.link} href={item.path} key={item.brandName}>
+              <figure className={styles.cover}>
+                <Image
+                  src={item.logo + ".png"}
+                  layout="fill"
+                  alt={item.brandName}
+                  className={styles.image}
+                />
+              </figure>
+              {item.brandName}
             </Link>
           </div>
         ))}
