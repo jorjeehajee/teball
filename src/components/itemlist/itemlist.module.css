@@ -10,9 +10,20 @@
 }
 
 .sectionItems {
-    margin-top: 2rem;
-    display: flex;
+    /* margin-top: 2rem; */
+
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: flex-start;
+    column-count: 3;
+    gap: 50px; */
+
+    /* display: inline-flex;
+    flex-wrap: wrap;
+    gap: 50px; */
+
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }

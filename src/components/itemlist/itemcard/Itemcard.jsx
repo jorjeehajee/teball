@@ -8,7 +8,7 @@ import styles from './itemcard.module.css'
 
 const Itemcard = () => {
   return (
-    <Card sx={{ width: 345 }}>
+    <Card className={styles.item}>
       <CardActionArea>
         <CardMedia
           component="img"
