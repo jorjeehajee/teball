@@ -7,6 +7,9 @@
   height: 70dvh;
 }
 
-
+.footer{
+  min-height: 500px;
+  background-color: #f7f7f7;
+}
 
 

@@ -1,0 +1,18 @@
+.list{
+
+} 
+.row{
+  margin: 0;
+}
+.row > div{
+  padding: 0;
+}
+.link{
+  display: block;
+  position: relative;
+}
+.link img{
+  width: 100%;
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+}

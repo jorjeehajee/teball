@@ -2,6 +2,7 @@ import Herobanner from "@/components/herobanner/Herobanner";
 import styles from "./home.module.css";
 import Brandlist from "@/components/brandlist/Brandlist";
 import Itemlist from "@/components/itemlist/Itemlist";
+import Stylelist from "@/components/stylelist/Stylelist";
 
 export default function Home() {
   return (
@@ -12,7 +13,11 @@ export default function Home() {
       <main>
         <Brandlist />
         <Itemlist />
+        <Stylelist />
       </main>
+      {/* <footer className={styles.footer}>
+        <Footer />
+      </footer> */}
     </>
   );
 }

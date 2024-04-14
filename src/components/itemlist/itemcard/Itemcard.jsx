@@ -3,6 +3,8 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import styles from './itemcard.module.css'
 
@@ -11,28 +13,33 @@ const Itemcard = () => {
     <Card className={styles.item}>
       <CardActionArea>
         <CardMedia
+          className={styles.thumb}
           component="img"
-          height="250"
-          image="https://images.unsplash.com/photo-1712229102477-f0d8a1b2dbd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
+          image="https://www.soccerbible.com/media/141867/mizuno-fb-min.jpg"
           alt="green iguana"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Nike
+        <CardContent className={styles.content}>
+          <Typography gutterBottom variant="h5" component="div" className={styles.title}>
+            Mizuno Aplha Japan
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            รุ่น xxxx
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            ราคา 10.00
-          </Typography>
+          <Row className="align-items-end">
+            <Col>
+              <Typography variant="body2" color="text.secondary" className={styles.brand}>
+                Mizuno
+              </Typography>
+              <Typography variant="body2" color="text.secondary" className={styles.price}>
+                ฿ 6,590
+              </Typography>
+            </Col>
+            <Col xs="auto">
+              <div className={styles.tag}>
+                <div>มือ 1</div>
+                <div>26.5 cm</div>
+              </div>
+            </Col>
+          </Row>
         </CardContent>
       </CardActionArea>
-      <CardActions className={styles.actionBtn}>
-        <Button size="small" color="primary" style={{ backgroundColor: 'red', color: 'white' }}>
-          ซื้อสินค้า
-        </Button>
-      </CardActions>
     </Card>
   );
 };

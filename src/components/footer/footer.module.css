@@ -1,0 +1,54 @@
+.topbar{
+  background-color: #000;
+  text-align: center;
+  padding: 12px 0;
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+}
+.main{
+  /* background-color: #f7f7f7; */
+}
+.mainInfo{
+  padding: 40px 0;
+}
+.mainCopy{
+  padding: 20px 0;
+  font-size: 13px;
+  color: var(--color-default);
+  text-align: center;
+  border-top: 1px solid var(--color-border);
+}
+.company{
+  width: 400px;
+}
+.companyLogo{
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-color: #f7f7f7;
+}
+.companyLogo img{
+  transform: scale(0.7);
+  object-fit: contain;
+  object-position: center;
+}
+.topic{
+  font-size: 16px;
+  font-weight: 500;
+}
+.sitemap{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sitemap li{
+  margin-top: 5px;
+}
+.sitemap a{
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--color-gray);
+}
