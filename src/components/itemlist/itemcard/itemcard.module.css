@@ -5,11 +5,16 @@
 }
 .item:hover,
 .item:focus{
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #fff;
 }
 
 .item button:hover{
-    background-color: transparent;
+    background-color: #fff;
+}
+
+.item button > span{
+    opacity: 0 !important;
 }
 
 .thumb{
