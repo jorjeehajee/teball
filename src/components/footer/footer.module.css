@@ -16,17 +16,30 @@
   padding: 20px 0;
   font-size: 13px;
   color: var(--color-default);
-  text-align: center;
+  text-align: left;
   border-top: 1px solid var(--color-border);
+}
+.mainPay{
+  display: flex;
+}
+.mainPay div{
+  position: relative;
+  height: 30px;
+  margin-left: 10px;
+}
+.mainPay div img{
+  position: relative !important;
+  max-width: 80px;
 }
 .company{
   width: 400px;
 }
 .companyLogo{
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   background-color: #f7f7f7;
+  /* border-radius: 15px; */
 }
 .companyLogo img{
   transform: scale(0.7);
@@ -34,7 +47,7 @@
   object-position: center;
 }
 .topic{
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
 }
 .sitemap{
