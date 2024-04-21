@@ -1,0 +1,25 @@
+.container{
+    width: 980px;
+    max-width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productContainer {
+    width: 980px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.productContainer h2 {
+    text-align: center;
+}
+
+.productList {
+    display: grid;
+    margin: 2rem 0;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
