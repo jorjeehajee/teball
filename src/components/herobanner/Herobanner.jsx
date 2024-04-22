@@ -11,7 +11,7 @@ import styles from "./herobanner.module.css";
 const Herobanner = () => {
   return (
     <div className={styles.imgContainer}>
-      <Image src="/herobanner.jpg" fill className={styles.heroImg} />
+      <Image src="/herobanner.jpg" fill className={styles.heroImg} sizes="100vw"  alt="herobanner" />
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Search = () => {
     <div className={styles.container}>
         <form className={styles.form}>
             <div className={styles.icon}>
-              <Image src="/icon-search.png" className={styles.iconImg} fill />
+              <Image src="/icon-search.png" className={styles.iconImg} fill alt='search' sizes="100vw"/>
             </div>
             <input className={styles.input} type="text" placeholder='คุณหารองเท้ารุ่นไหนอยู่ ?' />
         </form>

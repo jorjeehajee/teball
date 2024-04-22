@@ -16,7 +16,7 @@ const Navbar = () => {
       <Row className='g-0 justify-content-between align-items-center'>
         <Col lg="auto">
           <Link href='/' className={styles.logo}>
-            <Image src="/logo.png" fill />
+            <Image src="/logo.png" fill alt='logo' sizes="100vw" />
           </Link>
         </Col>
         <Col>

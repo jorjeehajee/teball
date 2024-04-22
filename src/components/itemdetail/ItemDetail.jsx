@@ -13,6 +13,8 @@ const ItemDetail = () => {
             src="https://www.soccerbible.com/media/141867/mizuno-fb-min.jpg"
             fill
             className={style.imageContent}
+            alt="shoes"
+            sizes="100vw"
           />
         </div>
         <div className={style.productDesc}>

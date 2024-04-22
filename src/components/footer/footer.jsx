@@ -28,7 +28,7 @@ const Footer = () => {
               <Col xs="auto">
                 <div className={styles.company}>
                   <div className={styles.companyLogo}>
-                    <Image src="/logo.png" fill />
+                    <Image src="/logo.png" fill alt="logo"/>
                   </div>
                 </div>
               </Col>
@@ -78,9 +78,9 @@ const Footer = () => {
               </Col>
               <Col xs="auto">
                 <div className={styles.mainPay}>
-                  <div><Image src="/pay-visa.png" fill /></div>
-                  <div><Image src="/pay-mastercard.jpg" fill /></div>
-                  <div><Image src="/pay-promptpay.webp" fill /></div>
+                  <div><Image src="/pay-visa.png" fill alt="visa" sizes="100vw"/></div>
+                  <div><Image src="/pay-mastercard.jpg" fill alt="mastercard" sizes="100vw"/></div>
+                  <div><Image src="/pay-promptpay.webp" fill alt="promptpay" sizes="100vw"/></div>
                 </div>
               </Col>
             </Row>

@@ -60,15 +60,16 @@ const Brandlist = () => {
   return (
     <div className={styles.container}>
       <div className={styles.brandContainer}>
-        {brands.map((item) => (
-          <div className={styles.logoImage}>
-            <Link className={styles.link} href={item.path} key={item.brandName}>
+        {brands.map((item, index) => (
+          <div className={styles.logoImage} key={index}>
+            <Link className={styles.link} href={item.path} >
               <figure className={styles.cover}>
                 <Image
                   src={item.logo + ".png"}
-                  layout="fill"
+                  fill
                   alt={item.brandName}
                   className={styles.image}
+                  sizes="(max-width: 768px) 50vw, 25vw" 
                 />
               </figure>
               {item.brandName}

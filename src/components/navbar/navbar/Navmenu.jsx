@@ -19,7 +19,7 @@ const Navmenu = () => {
     <div className={styles.menu}>
       <Link className={styles.link} href='/login'>
         <div className={styles.icon}>
-          <Image src="/icon-people.png" className={styles.iconImg} fill />
+          <Image src="/icon-people.png" className={styles.iconImg} fill alt="login" sizes="100vw"/>
         </div>
         ล็อคอิน
       </Link>
